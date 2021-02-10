@@ -67,3 +67,28 @@ mark.red {
     background: none;
     font-size: 50px;
 }
+
+/* Signs */
+
+#signs {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    margin-top: 100px;
+}
+
+figure {
+    margin: 0 20px 0 20px;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figure figcaption {
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Amatic SC', cursive;
+}
