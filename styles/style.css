@@ -47,6 +47,13 @@ h1 {
     text-decoration-thickness: 0.5%;
 }
 
+#play-again:hover {
+    cursor: pointer;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
 /* Choices */
 
 #choices {
