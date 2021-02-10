@@ -106,3 +106,19 @@ figure figcaption {
     font-size: 42px;
     font-family: 'Amatic SC', cursive;
 }
+
+/* Media queries */
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 16vw;
+    }
+
+    figure figcaption {
+        font-size: 8vw;
+    }
+
+    #signs {
+        margin-top: 10vw;
+    }
+}
