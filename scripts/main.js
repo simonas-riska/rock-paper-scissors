@@ -14,6 +14,7 @@ let gameEnded = false;
 document.getElementById("rock").addEventListener("click", playerChoosesRock);
 document.getElementById("paper").addEventListener("click", playerChoosesPaper);
 document.getElementById("scissors").addEventListener("click", playerChoosesScissors);
+document.getElementById("play-again-message").addEventListener("click", playAgain);
 
 function playerChoosesRock() {
     if (!gameEnded) {
@@ -94,4 +95,8 @@ function gameOver() {
         document.getElementById("play-again-message").innerHTML = "Want a rematch?";
         gameEnded = true;
     }
+}
+
+function playAgain() {
+    location.reload(); 
 }
