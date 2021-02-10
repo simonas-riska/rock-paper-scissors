@@ -36,3 +36,13 @@ h1 {
     font-size: 60px;
     font-family: 'Amatic SC', cursive;
 }
+
+/* Play Again */
+
+#play-again {
+    margin-top: 5px;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5%;
+}
