@@ -16,3 +16,15 @@ h1 {
     font-size: 100px;
     font-family: 'Amatic SC', cursive;
 }
+
+/* Score */
+
+#score {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 70px;
+    font-family: 'Amatic SC', cursive;
+}
