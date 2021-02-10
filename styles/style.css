@@ -46,3 +46,24 @@ h1 {
     text-decoration: underline;
     text-decoration-thickness: 0.5%;
 }
+
+/* Choices */
+
+#choices {
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Amatic SC', cursive;
+}
+
+#player-status{
+    margin-right: 40vw;
+}
+
+mark.red {
+    color:#ff0000;
+    background: none;
+    font-size: 50px;
+}
