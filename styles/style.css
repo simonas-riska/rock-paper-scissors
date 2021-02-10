@@ -87,6 +87,13 @@ figure img {
     height: auto;
 }
 
+figure img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
 figure figcaption {
     text-align: center;
     font-size: 42px;
