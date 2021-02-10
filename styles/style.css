@@ -28,3 +28,11 @@ h1 {
     font-size: 70px;
     font-family: 'Amatic SC', cursive;
 }
+
+/* Status Message */
+
+#status {
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+}
